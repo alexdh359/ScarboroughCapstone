@@ -1,0 +1,23 @@
+Package: Master
+Type: Package
+Title: Homework for Coursera
+Version: 0.1.0
+Author: Alex
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports:
+    dplyr,
+    graphics,
+    maps,
+    readr,
+    tidyr
+Suggests:
+    knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr
+RoxygenNote: 5.0.1
